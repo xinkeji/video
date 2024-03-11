@@ -94,10 +94,10 @@ const Video =  () => {
         <div style={{textAlign:'center', marginTop:20}}>
         <h3>操作指南</h3> 
        
-        <li>第&nbsp;一&nbsp;步&nbsp;进入各大视频网站，找到想要观看的VIP视频vip会员，然后复制链接（浏览器上的视频地址）</li> 
-        <li>第&nbsp;二&nbsp;步&nbsp;将复制的链接粘贴到本站播放地址，并点击开始解析</li> 
-        <li>第&nbsp;三&nbsp;步&nbsp;等待解析完成，即可免费观看VIP视频vip会员</li> 
-        <li>想要找会员电影免费看，下方搜索电影名，就能免费观看vip会员vip付费电影电视剧</li> 
+        第&nbsp;一&nbsp;步&nbsp;进入各大视频网站，找到想要观看的VIP视频vip会员，然后复制链接（浏览器上的视频地址）
+        第&nbsp;二&nbsp;步&nbsp;将复制的链接粘贴到本站播放地址，并点击开始解析
+        第&nbsp;三&nbsp;步&nbsp;等待解析完成，即可免费观看VIP视频vip会员
+        想要找会员电影免费看，下方搜索电影名，就能免费观看vip会员vip付费电影电视剧
           </div>
        
    
