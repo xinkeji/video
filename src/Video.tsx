@@ -49,7 +49,7 @@ const Video =  () => {
     return (
       <div className='emptyBox' 
            style={{
-             backgroundImage: "url('https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/images/bf.gif')",
+             backgroundImage: "url('https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/bf.gif')",
              width: '100%', // 确保有宽度
              height: '400px', // 提供高度，可以根据需要调整
              backgroundSize: 'cover', // 确保背景图片覆盖整个容器
@@ -102,31 +102,31 @@ const Video =  () => {
     <div className="tvlogo" style={{ margin: '20px 0px', textAlign: 'center' }}>
       <p style={{ marginBottom: '10px', color: '#555555', fontSize: '16px' }}>支持平台</p>
       <a href="https://vip.youku.com/" target="_blank" rel="noopener noreferrer" title="优酷会员中心">
-        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/images/youku.png" alt="优酷" />
+        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/youku.png" alt="优酷" />
       </a>
       <a href="https://vip.iqiyi.com/" target="_blank" rel="noopener noreferrer" title="爱奇艺会员">
-        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/images/iqiyi.png" alt="爱奇艺" />
+        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/iqiyi.png" alt="爱奇艺" />
       </a>
       <a href="https://film.qq.com/" target="_blank" rel="noopener noreferrer" title="腾讯会员中心">
-        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/images/vqq.png" alt="腾讯视频" />
+        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/vqq.png" alt="腾讯视频" />
       </a>
       <a href="https://www.bilibili.com/" target="_blank" rel="noopener noreferrer" title="哔哩哔哩">
-        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/images/bilibili.png" alt="哔哩哔哩" />
+        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/bilibili.png" alt="哔哩哔哩" />
       </a>
       <a href="https://www.mgtv.com/vip/" target="_blank" rel="noopener noreferrer" title="芒果会员中心">
-        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/images/mgtv.png" alt="芒果TV" />
+        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/mgtv.png" alt="芒果TV" />
       </a>
       <a href="https://www.pptv.com/" target="_blank" rel="noopener noreferrer" title="PPTV聚力">
-        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/images/pptv.png" alt="PPTV" />
+        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/pptv.png" alt="PPTV" />
       </a>
       <a href="https://www.le.com/" target="_blank" rel="noopener noreferrer" title="乐视会员中心">
-        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/images/le.png" alt="乐视" />
+        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/le.png" alt="乐视" />
       </a>
       <a href="https://film.sohu.com/" target="_blank" rel="noopener noreferrer" title="搜狐视频">
-        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/images/sohu.png" alt="搜狐视频" />
+        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/sohu.png" alt="搜狐视频" />
       </a>
       <a href="https://vip.kankan.com/" target="_blank" rel="noopener noreferrer" title="天天看看">
-        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/images/kankan.png" alt="天天看看" />
+        <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/kankan.png" alt="天天看看" />
       </a>
     </div>
 
