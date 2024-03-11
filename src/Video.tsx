@@ -108,16 +108,7 @@ const Video =  () => {
      <p><a target="_blank" href="" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-thumbs-up"></span>微信公众号:心科技</a></p> 
     </div> 
      </div>
-     <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?13ebeb3594887b08a6aca1244421136f";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-      
+
   </div>
 }
 
