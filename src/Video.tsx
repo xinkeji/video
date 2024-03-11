@@ -100,7 +100,7 @@ const Video =  () => {
 
    
     <div className="tvlogo" style={{ margin: '20px 0px', textAlign: 'center' }}>
-      <p style={{ marginBottom: '10px', color: '#555555', fontSize: '16px' }}>
+      
         <span style={{ fontWeight: 'bold' }}>微信公众号:心科技</span><br />
       <a href="https://vip.youku.com/" target="_blank" rel="noopener noreferrer" title="优酷会员中心">
         <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/youku.png" alt="优酷" />
@@ -142,6 +142,7 @@ const Video =  () => {
       <div style={{textAlign:'center', marginTop:20}}>
         <p>友情链接：</p>
         <p>
+          
           <a target="_blank" rel="noopener noreferrer" title="苦心ios导航" href="http://93665.xin/">苦心ios导航</a>&nbsp;&nbsp;
           <a target="_blank" rel="noopener noreferrer" title="心科技圈" href="https://xkj.93665.xin/">心科技圈</a>
         </p>
