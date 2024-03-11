@@ -47,7 +47,7 @@ const Video =  () => {
   const renderEmpty = () => {
     if(!playBtn){
       return <>
-        <div className='emptyBox' style={{backgroundColor: randomHex()}}>
+        <div className='emptyBox' style={{backgroundImage: `url('https://www.zuphp.com/vip/images/bf.gif')`}}>
           部分视频解析时间较长，请耐心等待。
         </div>
       </>
