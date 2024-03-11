@@ -89,7 +89,43 @@ const Video =  () => {
     <div className='videoPlay'>
       {renderEmpty()}
     </div>
-  
+
+
+    const SupportedPlatforms = () => {
+  return (
+    <div className="tvlogo" style={{ margin: '20px 0px', textAlign: 'center' }}>
+      <p style={{ marginBottom: '10px', color: '#555555', fontSize: '16px' }}>支持平台</p>
+      <a href="https://vip.youku.com/" target="_blank" rel="noopener noreferrer" title="优酷会员中心">
+        <img style={{ width: '85px', margin: '8px' }} src="images/youku.png" alt="优酷" />
+      </a>
+      <a href="https://vip.iqiyi.com/" target="_blank" rel="noopener noreferrer" title="爱奇艺会员">
+        <img style={{ width: '85px', margin: '8px' }} src="images/iqiyi.png" alt="爱奇艺" />
+      </a>
+      <a href="https://film.qq.com/" target="_blank" rel="noopener noreferrer" title="腾讯会员中心">
+        <img style={{ width: '85px', margin: '8px' }} src="images/vqq.png" alt="腾讯视频" />
+      </a>
+      <a href="https://www.bilibili.com/" target="_blank" rel="noopener noreferrer" title="哔哩哔哩">
+        <img style={{ width: '85px', margin: '8px' }} src="images/bilibili.png" alt="哔哩哔哩" />
+      </a>
+      <a href="https://www.mgtv.com/vip/" target="_blank" rel="noopener noreferrer" title="芒果会员中心">
+        <img style={{ width: '85px', margin: '8px' }} src="images/mgtv.png" alt="芒果TV" />
+      </a>
+      <a href="https://www.pptv.com/" target="_blank" rel="noopener noreferrer" title="PPTV聚力">
+        <img style={{ width: '85px', margin: '8px' }} src="images/pptv.png" alt="PPTV" />
+      </a>
+      <a href="https://yuanxian.le.com/" target="_blank" rel="noopener noreferrer" title="乐视会员中心">
+        <img style={{ width: '85px', margin: '8px' }} src="images/le.png" alt="乐视" />
+      </a>
+      <a href="https://film.sohu.com/" target="_blank" rel="noopener noreferrer" title="搜狐视频">
+        <img style={{ width: '85px', margin: '8px' }} src="images/sohu.png" alt="搜狐视频" />
+      </a>
+      <a href="https://vip.kankan.com/" target="_blank" rel="noopener noreferrer" title="天天看看">
+        <img style={{ width: '85px', margin: '8px' }} src="images/kankan.png" alt="天天看看" />
+      </a>
+    </div>
+  );
+};
+    
      
           <div style={{textAlign:'center', marginTop:20}}>
         <span style={{ fontWeight: 'bold' }}>操作指南</span><br />
