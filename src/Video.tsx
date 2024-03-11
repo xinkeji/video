@@ -49,7 +49,7 @@ const Video =  () => {
     return (
       <div className='emptyBox' 
            style={{
-             backgroundImage: "url('https://www.zuphp.com/vip/images/bf.gif')",
+             backgroundImage: "url('/images/bf.gif')",
              width: '100%', // 确保有宽度
              height: '400px', // 提供高度，可以根据需要调整
              backgroundSize: 'cover', // 确保背景图片覆盖整个容器
