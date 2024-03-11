@@ -55,7 +55,7 @@ const Video =  () => {
              backgroundSize: 'cover', // 确保背景图片覆盖整个容器
              backgroundPosition: 'center' // 背景图片居中显示
            }}>
-        部分视频解析时间较长，请耐心等待。
+        
       </div>
     );
   }
@@ -87,7 +87,7 @@ const Video =  () => {
         {
           Object.keys(API).map((Item,index) => {
             return <Option key={Item} value={API[Item as keyof typeof API]}>
-              {`${Item} ---  【稳定】`}
+              {`${Item} ---  【心科技提供】`}
             </Option>
           })
         }
@@ -100,7 +100,8 @@ const Video =  () => {
 
    
     <div className="tvlogo" style={{ margin: '20px 0px', textAlign: 'center' }}>
-      <p style={{ marginBottom: '10px', color: '#555555', fontSize: '16px' }}>支持平台</p>
+      <p style={{ marginBottom: '10px', color: '#555555', fontSize: '16px' }}>
+        <span style={{ fontWeight: 'bold' }}>微信公众号:心科技</span><br />
       <a href="https://vip.youku.com/" target="_blank" rel="noopener noreferrer" title="优酷会员中心">
         <img style={{ width: '85px', margin: '8px' }} src="https://jsd.cdn.zzko.cn/gh/xinkeji/video@main/public/images/youku.png" alt="优酷" />
       </a>
