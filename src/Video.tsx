@@ -89,7 +89,7 @@ const Video =  () => {
     <div className='videoPlay'>
       {renderEmpty()}
     </div>
-    <div style={{textAlign:'center', marginTop:20}}>不定期更新解析资源，仅供学习使用，切勿用于商业。</div>
+    
      
           <div style={{textAlign:'center', marginTop:20}}>
         <span style={{ fontWeight: 'bold' }}>操作指南</span><br />
@@ -105,7 +105,7 @@ const Video =  () => {
           <a target="_blank" rel="noopener noreferrer" title="心科技圈" href="https://xkj.93665.xin/">心科技圈</a>
         </p>
       </div>
-
+<div style={{textAlign:'center', marginTop:20}}>不定期更新解析资源，仅供学习使用，切勿用于商业。</div>
   </div>
 }
 
