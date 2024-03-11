@@ -89,17 +89,7 @@ const Video =  () => {
     <div className='videoPlay'>
       {renderEmpty()}
     </div>
-    <div style={{ textAlign: 'center', marginTop: 20 }}>
-      <a className="btn btn-outline-primary m-2" href="http://www.le.com/" rel="nofollow" target="_blank">进入乐视视频</a>
-      <a className="btn btn-outline-primary m-2" href="https://www.iqiyi.com/" rel="nofollow" target="_blank">进入奇艺视频</a>
-      <a className="btn btn-outline-primary m-2" href="https://www.mgtv.com/" rel="nofollow" target="_blank">进入芒果视频</a>
-      <a className="btn btn-outline-primary m-2" href="https://www.tudou.com/" rel="nofollow" target="_blank">进入土豆视频</a>
-      <br />
-      <a className="btn btn-outline-primary m-2" href="https://v.qq.com/" rel="nofollow" target="_blank">进入腾讯视频</a>
-      <a className="btn btn-outline-primary m-2" href="https://www.youku.com/" rel="nofollow" target="_blank">进入优酷视频</a>
-      <a className="btn btn-outline-primary m-2" href="https://tv.sohu.com/" rel="nofollow" target="_blank">进入搜狐视频</a>
-      <a className="btn btn-outline-primary m-2" href="https://www.pptv.com/" rel="nofollow" target="_blank">进入pptv视频</a>
-    </div>
+  
      
           <div style={{textAlign:'center', marginTop:20}}>
         <span style={{ fontWeight: 'bold' }}>操作指南</span><br />
