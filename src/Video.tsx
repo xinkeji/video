@@ -44,16 +44,23 @@ const Video =  () => {
   const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
 
 
-  const renderEmpty = () => {
-    if(!playBtn){
-      return <>
-        <div className='emptyBox' style={{backgroundImage: `url('https://www.zuphp.com/vip/images/bf.gif')`}}>
-          部分视频解析时间较长，请耐心等待。
-        </div>
-      </>
-    }
-    return <iframe title='video' src={playUrl} allowFullScreen={true} />
+ const renderEmpty = () => {
+  if (!playBtn) {
+    return (
+      <div className='emptyBox' 
+           style={{
+             backgroundImage: "url('https://www.zuphp.com/vip/images/bf.gif')",
+             width: '100%', // 确保有宽度
+             height: '400px', // 提供高度，可以根据需要调整
+             backgroundSize: 'cover', // 确保背景图片覆盖整个容器
+             backgroundPosition: 'center' // 背景图片居中显示
+           }}>
+        部分视频解析时间较长，请耐心等待。
+      </div>
+    );
   }
+  return <iframe title="video" src={playUrl} allowFullScreen={true} style={{width: '100%', height: '400px'}} />;
+}
 
   return <div className='videoBox'>
     <div className="tooltip">
@@ -112,7 +119,7 @@ const Video =  () => {
       <a href="https://www.pptv.com/" target="_blank" rel="noopener noreferrer" title="PPTV聚力">
         <img style={{ width: '85px', margin: '8px' }} src="images/pptv.png" alt="PPTV" />
       </a>
-      <a href="https://yuanxian.le.com/" target="_blank" rel="noopener noreferrer" title="乐视会员中心">
+      <a href="https://www.le.com/" target="_blank" rel="noopener noreferrer" title="乐视会员中心">
         <img style={{ width: '85px', margin: '8px' }} src="images/le.png" alt="乐视" />
       </a>
       <a href="https://film.sohu.com/" target="_blank" rel="noopener noreferrer" title="搜狐视频">
