@@ -14,7 +14,7 @@ const Video =  () => {
   const [ inputValue, setInputValue] = useState<string>('');
   const [ playUrl, setPlayUrl ] = useState<string>('');
   const [ playBtn, setPlayBtn ] = useState<boolean>(false);
-  const [ nodeValue, setNodeValue ] = useState<any>(API['m3u8']);
+  const [ nodeValue, setNodeValue ] = useState<any>(API['心科技解析']);
 
   useEffect(()=>{
     
