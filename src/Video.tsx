@@ -91,8 +91,7 @@ const Video =  () => {
     </div>
 
 
-    const SupportedPlatforms = () => {
-  return (
+   
     <div className="tvlogo" style={{ margin: '20px 0px', textAlign: 'center' }}>
       <p style={{ marginBottom: '10px', color: '#555555', fontSize: '16px' }}>支持平台</p>
       <a href="https://vip.youku.com/" target="_blank" rel="noopener noreferrer" title="优酷会员中心">
@@ -123,9 +122,7 @@ const Video =  () => {
         <img style={{ width: '85px', margin: '8px' }} src="images/kankan.png" alt="天天看看" />
       </a>
     </div>
-  );
-};
-    
+
      
           <div style={{textAlign:'center', marginTop:20}}>
         <span style={{ fontWeight: 'bold' }}>操作指南</span><br />
