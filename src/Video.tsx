@@ -90,9 +90,7 @@ const Video =  () => {
       {renderEmpty()}
     </div>
     <div style={{textAlign:'center', marginTop:20}}>不定期更新解析资源，仅供学习使用，切勿用于商业。</div>
-     <tbody> </td>
-     <tr> 
-      <td> 
+     
         <div style={{textAlign:'center', marginTop:20}}>
         <h3>操作指南</h3> 
        
@@ -101,10 +99,9 @@ const Video =  () => {
         <li>第&nbsp;三&nbsp;步&nbsp;等待解析完成，即可免费观看VIP视频vip会员</li> 
         <li>想要找会员电影免费看，下方搜索电影名，就能免费观看vip会员vip付费电影电视剧</li> 
           </div>
-       </ul> 
+       
    
-       </div> </td> 
-     </tr> 
+      
   </div>
 }
 
