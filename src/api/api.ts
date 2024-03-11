@@ -1,4 +1,5 @@
 var jxapis = {
+  "心科技解析":"https://jx.jsonplayer.com/player/?url=",
   "全民解析":"https://jx.aidouer.net/?url=",
   'go': "https://jx.playerjy.com?url=",
   "8090g": "https://www.8090g.cn/?url=",
